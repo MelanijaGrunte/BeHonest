@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DA22BE828AA6C0700D6E951 /* BeHonestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22BC028AA6C0600D6E951 /* BeHonestApp.swift */; };
+		5DA22BEA28AA6C0700D6E951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22BC128AA6C0600D6E951 /* ContentView.swift */; };
+		5DA22BEC28AA6C0700D6E951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA22BC228AA6C0700D6E951 /* Assets.xcassets */; };
+		5DA22C0128AA791500D6E951 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA22C0028AA791500D6E951 /* DesignSystem */; };
+		5DA22C0328AA791500D6E951 /* Feed in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA22C0228AA791500D6E951 /* Feed */; };
+		5DA22C0528AA791500D6E951 /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA22C0428AA791500D6E951 /* Settings */; };
+		5DA22C0728AA791500D6E951 /* Utility in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA22C0628AA791500D6E951 /* Utility */; };
+		5DA22C0928AA89BF00D6E951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22C0828AA89BF00D6E951 /* AppDelegate.swift */; };
+		5DA22C0B28AA8C0200D6E951 /* FriendsFeedHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22C0A28AA8C0200D6E951 /* FriendsFeedHostingViewController.swift */; };
+		5DA22C0D28AA8F5C00D6E951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22C0C28AA8F5C00D6E951 /* SceneDelegate.swift */; };
+		5DA22C1628AAA42500D6E951 /* ShareHonestyHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22C1528AAA42500D6E951 /* ShareHonestyHostingViewController.swift */; };
+		5DA22C1928AAB11C00D6E951 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22C1828AAB11C00D6E951 /* Api.swift */; };
+		5DA22C1E28AAB2A800D6E951 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA22C1D28AAB2A800D6E951 /* Client.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DA22BC028AA6C0600D6E951 /* BeHonestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeHonestApp.swift; sourceTree = "<group>"; };
+		5DA22BC128AA6C0600D6E951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DA22BC228AA6C0700D6E951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DA22BC728AA6C0700D6E951 /* BeHonest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeHonest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA22BFC28AA6DD300D6E951 /* BeHonest */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BeHonest; sourceTree = "<group>"; };
+		5DA22C0828AA89BF00D6E951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DA22C0A28AA8C0200D6E951 /* FriendsFeedHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsFeedHostingViewController.swift; sourceTree = "<group>"; };
+		5DA22C0C28AA8F5C00D6E951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DA22C1028AA91B300D6E951 /* BeHonest--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BeHonest--iOS--Info.plist"; sourceTree = "<group>"; };
+		5DA22C1528AAA42500D6E951 /* ShareHonestyHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareHonestyHostingViewController.swift; sourceTree = "<group>"; };
+		5DA22C1828AAB11C00D6E951 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		5DA22C1D28AAB2A800D6E951 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DA22BC428AA6C0700D6E951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA22C0528AA791500D6E951 /* Settings in Frameworks */,
+				5DA22C0328AA791500D6E951 /* Feed in Frameworks */,
+				5DA22C0128AA791500D6E951 /* DesignSystem in Frameworks */,
+				5DA22C0728AA791500D6E951 /* Utility in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DA22BBA28AA6C0600D6E951 = {
+			isa = PBXGroup;
+			children = (
+				5DA22C1028AA91B300D6E951 /* BeHonest--iOS--Info.plist */,
+				5DA22BFC28AA6DD300D6E951 /* BeHonest */,
+				5DA22BBF28AA6C0600D6E951 /* Shared */,
+				5DA22BC828AA6C0700D6E951 /* Products */,
+				5DA22BFD28AA6DEF00D6E951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DA22BBF28AA6C0600D6E951 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5DA22C1128AA9E3500D6E951 /* Application */,
+				5DA22C1728AAACB300D6E951 /* Network */,
+				5DA22C1228AA9E4300D6E951 /* HostingViewControllers */,
+				5DA22BC228AA6C0700D6E951 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5DA22BC828AA6C0700D6E951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DA22BC728AA6C0700D6E951 /* BeHonest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA22BFD28AA6DEF00D6E951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DA22C1128AA9E3500D6E951 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5DA22C1428AA9E7200D6E951 /* SwiftUI */,
+				5DA22C1328AA9E6E00D6E951 /* UIKit */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5DA22C1228AA9E4300D6E951 /* HostingViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DA22C0A28AA8C0200D6E951 /* FriendsFeedHostingViewController.swift */,
+				5DA22C1528AAA42500D6E951 /* ShareHonestyHostingViewController.swift */,
+			);
+			path = HostingViewControllers;
+			sourceTree = "<group>";
+		};
+		5DA22C1328AA9E6E00D6E951 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5DA22C0828AA89BF00D6E951 /* AppDelegate.swift */,
+				5DA22C0C28AA8F5C00D6E951 /* SceneDelegate.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5DA22C1428AA9E7200D6E951 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5DA22BC028AA6C0600D6E951 /* BeHonestApp.swift */,
+				5DA22BC128AA6C0600D6E951 /* ContentView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		5DA22C1728AAACB300D6E951 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5DA22C1828AAB11C00D6E951 /* Api.swift */,
+				5DA22C1D28AAB2A800D6E951 /* Client.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DA22BC628AA6C0700D6E951 /* BeHonest (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA22BF028AA6C0700D6E951 /* Build configuration list for PBXNativeTarget "BeHonest (iOS)" */;
+			buildPhases = (
+				5DA22BC328AA6C0700D6E951 /* Sources */,
+				5DA22BC428AA6C0700D6E951 /* Frameworks */,
+				5DA22BC528AA6C0700D6E951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeHonest (iOS)";
+			packageProductDependencies = (
+				5DA22C0028AA791500D6E951 /* DesignSystem */,
+				5DA22C0228AA791500D6E951 /* Feed */,
+				5DA22C0428AA791500D6E951 /* Settings */,
+				5DA22C0628AA791500D6E951 /* Utility */,
+			);
+			productName = "BeHonest (iOS)";
+			productReference = 5DA22BC728AA6C0700D6E951 /* BeHonest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DA22BBB28AA6C0600D6E951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5DA22BC628AA6C0700D6E951 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DA22BBE28AA6C0600D6E951 /* Build configuration list for PBXProject "BeHonest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DA22BBA28AA6C0600D6E951;
+			productRefGroup = 5DA22BC828AA6C0700D6E951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DA22BC628AA6C0700D6E951 /* BeHonest (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DA22BC528AA6C0700D6E951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA22BEC28AA6C0700D6E951 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DA22BC328AA6C0700D6E951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA22C0D28AA8F5C00D6E951 /* SceneDelegate.swift in Sources */,
+				5DA22C0928AA89BF00D6E951 /* AppDelegate.swift in Sources */,
+				5DA22BEA28AA6C0700D6E951 /* ContentView.swift in Sources */,
+				5DA22BE828AA6C0700D6E951 /* BeHonestApp.swift in Sources */,
+				5DA22C1628AAA42500D6E951 /* ShareHonestyHostingViewController.swift in Sources */,
+				5DA22C1928AAB11C00D6E951 /* Api.swift in Sources */,
+				5DA22C0B28AA8C0200D6E951 /* FriendsFeedHostingViewController.swift in Sources */,
+				5DA22C1E28AAB2A800D6E951 /* Client.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DA22BEE28AA6C0700D6E951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DA22BEF28AA6C0700D6E951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5DA22BF128AA6C0700D6E951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFJM852YAB;
+				DRIVERKIT_DEPLOYMENT_TARGET = "";
+				"DRIVERKIT_DEPLOYMENT_TARGET[arch=*]" = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeHonest--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melanija.grunte.BeHonest;
+				PRODUCT_NAME = BeHonest;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = "";
+				WATCHOS_DEPLOYMENT_TARGET = "";
+			};
+			name = Debug;
+		};
+		5DA22BF228AA6C0700D6E951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFJM852YAB;
+				DRIVERKIT_DEPLOYMENT_TARGET = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeHonest--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melanija.grunte.BeHonest;
+				PRODUCT_NAME = BeHonest;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = "";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DA22BBE28AA6C0600D6E951 /* Build configuration list for PBXProject "BeHonest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA22BEE28AA6C0700D6E951 /* Debug */,
+				5DA22BEF28AA6C0700D6E951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA22BF028AA6C0700D6E951 /* Build configuration list for PBXNativeTarget "BeHonest (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA22BF128AA6C0700D6E951 /* Debug */,
+				5DA22BF228AA6C0700D6E951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DA22C0028AA791500D6E951 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		5DA22C0228AA791500D6E951 /* Feed */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Feed;
+		};
+		5DA22C0428AA791500D6E951 /* Settings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Settings;
+		};
+		5DA22C0628AA791500D6E951 /* Utility */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utility;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5DA22BBB28AA6C0600D6E951 /* Project object */;
+}
